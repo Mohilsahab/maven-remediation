@@ -1,0 +1,12 @@
+io.armorcode:remediation-sample:jar:0.0.1-SNAPSHOT
++- org.apache.poi:poi:jar:3.17:compile
+|  +- commons-codec:commons-codec:jar:1.15:compile
+|  \- org.apache.commons:commons-collections4:jar:4.1:compile
++- org.apache.poi:poi-ooxml:jar:3.17:compile
+|  +- org.apache.poi:poi-ooxml-schemas:jar:3.17:compile
+|  |  \- org.apache.xmlbeans:xmlbeans:jar:2.6.0:compile
+|  |     \- stax:stax-api:jar:1.0.1:compile
+|  \- com.github.virtuald:curvesapi:jar:1.04:compile
+\- junit:junit:jar:4.13.2:test
+   \- org.hamcrest:hamcrest-core:jar:2.2:test
+      \- org.hamcrest:hamcrest:jar:2.2:test
